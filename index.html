@@ -1,0 +1,46 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "container">
+            <header>
+                <h1>Kwasako's Dinner</h1>
+                <p>The best burgers and pizzas in town </p>
+            </header>
+            <div id = "order">
+                
+            </div>
+            
+            <p id = "farewell" class="farewell" > Thanks you, your order is on the way!</p>
+            <div id = "hidden" class = "hidden">
+                <section class ="order-section" >
+                    <h2 class= "your-order" >Your Order</h2>
+                    <div id ="order-made">
+                        
+                    </div>
+                    <div class ="order-made order-total" >
+                        <p>Total price:</p>
+                        <p class="price" id ="total" ></p>
+                    </div>
+                </section>
+                <button class ="complete-order" id = "complete-order">complete order</button>
+            </div>
+            
+            
+            
+            <div class = "card-detail" id ="payment" >
+                <p class ="bold" >Enter Cards Details</p>
+                <form >
+                    <input type="text" name ="card" id ="card-name" placeholder="Enter your name" required >
+                    <input type="number" name ="card" id ="card-number" placeholder="Enter card number" required>
+                    <input type="number" name ="card" id ="card-cvv" placeholder="Enter CVV" required>
+                    <button class ="bold" id ="pay" type = "submit">Pay</button>
+                </form>
+            
+            </div>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
